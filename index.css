@@ -1,0 +1,254 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(32, 1, 32);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(47, 5, 47);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 27px;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li a:hover {
+    color: rgb(199, 155, 239);
+    font-size: 1.26rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(248, 81, 248);
+    height: 1.1px;
+    margin: 65px 85px;
+}
+
+.left {
+    font-size: 1.6rem;
+    font-family: 'Lemon', serif;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection div {
+    width: 34%;
+}
+
+.leftSection {
+    font-size: 2.9rem;
+
+}
+
+.leftsection .buttons {
+    padding: 43px 0;
+}
+
+.leftSection .btn {
+    padding: 11px;
+    background-color: #4d004d;
+    color: white;
+    border: 5px 6px white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.rightSection img {
+    position: absolute;
+    top: 260px;
+    height: 450px;
+    width: 30%;
+    border-radius: 1.2rem;
+    border-color: black;
+}
+
+.text-Orange {
+    color: rgb(186, 68, 186);
+}
+
+.text-gray {
+    color: gray;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+}
+
+#element {
+    color: rgb(184, 76, 184);
+}
+
+#secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 85vh;
+}
+
+#secondSection h1 {
+    font-size: 2.0rem;
+}
+
+#secondSection .box {
+    background: rgb(177, 171, 243);
+    width: 75vw;
+    height: 3px;
+    margin: 98px 0;
+    display: flex;
+}
+
+#secondSection .vertical {
+    height: 564px;
+    width: 3.3px;
+    background-color: rgb(216, 187, 242);
+    margin: 0 160px;
+}
+
+.image-top {
+    width: 148px;
+    position: relative;
+    top: 8px;
+    left: 13px;
+    padding: 12px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 23px;
+    width: 230px;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+.vertical-titlee {
+    position: relative;
+    top: 15px;
+    width: 310px;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+.vertical-desc {
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    color: rgb(183, 237, 250);
+    width: 150px;
+    font-size: 15.3px;
+}
+.vertical-descc {
+    position: relative;
+    top: 10px;
+    padding: 20px;
+    color: rgb(183, 237, 250);
+    width: 150px;
+    font-size: 15.3px;
+}
+
+
+
+#project-container {
+    max-width: 90vw;
+    margin: auto;
+    height: 85vh
+}
+
+#project-container h1 {
+    font-size: 2.1rem;
+}
+
+#projects {
+    margin: 29px;
+    display: flex;
+    align-content: center;
+    background-color: rgb(34 32 32);
+}
+
+#projects .box {
+    border: 2px solid rgb(91, 76, 76);
+    padding: 34px;
+    margin: 8px 11px;
+    border-radius: 23px;
+    background: #271127;
+
+}
+
+#projects .box img {
+    height: 140px;
+    margin: auto;
+    display: block;
+}
+
+#projects .box p {
+    font-family: 'Amarante';
+}
+
+#contact {
+    max-width: 90vw;
+    position: relative;
+    font-size: 2.0rem;
+    margin: auto;
+    height: 75vh
+
+}
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-bottom: 14px;
+}
+
+#contact-box {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.4rem;
+    font-family: 'Bevan';
+}
+
+/* Footer Section */
+
+footer {
+    background: #2d0e2d;
+    color: white;
+    padding: 9px 20px;
+
+}
+.center{
+    text-align: center;
+}
